@@ -9,6 +9,9 @@ class Artist
   def self.all
     @@all
   end
+   def add_song(name,artist)
+     song.new
+   end
 
   def songs
     Song.find_by_artist(self)
